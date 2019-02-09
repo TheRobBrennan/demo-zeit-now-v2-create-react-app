@@ -1,6 +1,11 @@
 {
   "name": "demo-zeit-now-v2-create-react-app",
   "version": "0.1.0",
+  "author": "Rob Brennan <rob@therobbrennan.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/demo-zeit-now-v2-create-react-app"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.8.1",
@@ -11,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "now-build": "react-scripts build && mv build dist",
+    "deploy": "now && now alias"
   },
   "eslintConfig": {
     "extends": "react-app"
