@@ -1,5 +1,5 @@
 # Welcome
-This project is intended to serve as a lightweight example for creating a [NextJS](https://nextjs.org) application with the [create-react-app](https://facebook.github.io/create-react-app/) tool for a project that can be deployed to [Zeit Now 2.0](https://zeit.co/now).
+This project is intended to serve as a lightweight example for creating a [create-react-app](https://facebook.github.io/create-react-app/) application that can be deployed to [Zeit Now 2.0](https://zeit.co/now).
 
 You can view a [live demo](https://demo-create-react-app-nowv2.now.sh/) at [https://demo-create-react-app-nowv2.now.sh/](https://demo-create-react-app-nowv2.now.sh/).
 
